@@ -1,0 +1,236 @@
+.ver-detalhes-btn{
+    color: #2f23d4;
+}
+.modalDetalhes {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+
+#carousel{
+    height: 40%; 
+    width: 100%; 
+    display:flex;
+    display: block;
+    margin: 0 auto;
+}
+h4{
+    padding: 18px;
+}
+nav {
+background-color: white;
+}
+
+.navbar-brand {
+    justify-content: left;
+}
+/* Button Search - navbar */
+.fancy {
+    background-color: transparent;
+    border: 2px solid #2f23d4;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 0.60em 1.2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 11px;
+   }
+   
+   .fancy::before {
+    content: " ";
+    width: 1.56rem;
+    height: 1px;
+    background: #2f23d4;
+    top: 50%;
+    left: 1.5em;
+    position: absolute;
+    transform: translateY(-50%);
+    transform-origin: center;
+    transition: background 0.3s linear, width 0.3s linear;
+   }
+   
+   .fancy .text {
+    font-size: 1.125em;
+    line-height: 1.33333em;
+    padding-left: 2em;
+    display: block;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2f23d4;
+   }
+   
+   .fancy .top-key {
+    height: 2px;
+    width: 1.5625rem;
+    top: -2px;
+    left: 0.625rem;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, left 0.3s ease-out;
+   }
+   
+   .fancy .bottom-key-1 {
+    height: 2px;
+    width: 1.5625rem;
+    right: 1.875rem;
+    bottom: -2px;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+   }
+   
+   .fancy .bottom-key-2 {
+    height: 2px;
+    width: 0.625rem;
+    right: 0.625rem;
+    bottom: -2px;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+   }
+   
+   .fancy:hover {
+    color: white;
+    background: #2f23d4;
+   }
+   
+   .fancy:hover::before {
+    width: 0.9375rem;
+    background: white;
+   }
+   
+   .fancy:hover .text {
+    color: white;
+    padding-left: 1.5em;
+   }
+   
+   .fancy:hover .top-key {
+    left: -2px;
+    width: 0px;
+   }
+   
+   .fancy:hover .bottom-key-1,
+    .fancy:hover .bottom-key-2 {
+    right: 0;
+    width: 0;
+   }
+
+/* End */
+
+
+
+.menu-area{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu-column {
+    width: 50%;
+}
+
+.area-carrinho {
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carrinho-info {
+    margin-bottom: 0;
+
+}
+
+.btn-custom {
+    color: #212529;
+    background-color: #f3f4f5;
+    border-color: #464749;
+  }
+
+  .bg-pink {
+    background-color: #2f23d4;
+  }
+
+
+main {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#row {
+    display: flex;
+}
+
+.row:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 767.98px) {
+    main {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+
+/* Cards*/
+.card {
+    border-width: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (max-width: 576px) {
+    .card img {
+        height: 300px;
+    }
+}
+
+/* footer */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    background: #fff;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: poppins;
+    padding: 0;
+}
+body .card {
+    margin: 20px;
+  }
+  
+
+
