@@ -44,6 +44,8 @@
         </form>
       </div>
 
+/* Sugestão de Melhoria: Adicionar feedback visual para indicar quando os produtos estão sendo carregados */
+
       <div class="row">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -153,6 +155,8 @@
 
 </body>
 
+/* Sugestão de Melhoria: Adicionar aria-label para melhorar a acessibilidade */
+
 <!-- footer  -->
 <footer class="bg-dark text-center text-white">
   <h4 class="italic">ALL THINGS ONLINE</h4>
@@ -203,6 +207,8 @@
   var urlParams = new URLSearchParams(queryString);
   var term = urlParams.get('term');
 
+/* Sugestão de Melhoria: Mover essa função para um arquivo de utils.js para reutilização */
+  
   displayProducts(term);
 </script>
 

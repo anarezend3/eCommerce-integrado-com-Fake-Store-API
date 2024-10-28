@@ -5,6 +5,8 @@ function getProductIdFromURL() {
   return urlParams.get('id');
 }
 
+/* Sugestão: Adicionar tratamento de erros mais robusto e melhorar a usabilidade para o usuário */
+
 async function fetchProductDetails(productId) {
   try {
     const response = await fetch(`${apiURL}/${productId}`);

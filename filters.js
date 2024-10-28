@@ -17,6 +17,8 @@ function isCategoryMatch(productCategory, selectedCategory) {
   }
 }
 
+/* Sugestão de melhoria: Considerar mover o filtro para o lado do servidor para melhorar a performance */
+
 function filterProducts(priceRange, selectedCategory) {
   const productsDiv = $('#products');
   const productCards = productsDiv.children();

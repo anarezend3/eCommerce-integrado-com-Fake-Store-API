@@ -1,5 +1,7 @@
 const apiURL = 'https://diwserver.vps.webdock.cloud/products';
 
+/* Sugestão de Melhoria: Melhorar a modularidade criando uma função para gerenciar os loaders */
+
 function createSkeletonCard() {
   return `
     <div class="col-lg-4 col-md-6">
@@ -56,6 +58,8 @@ async function fetchProducts(searchTerm = '') {
     console.error(error);
   }
 }
+
+/* Sugestão de Melhoria: Mover a função getUrl para um arquivo utils.js */
 
 getUrl = (searchTerm, pageItems = 12) => {
   if (searchTerm) {

@@ -22,6 +22,8 @@ main {
   text-align: left;
 }
 
+/* Sugestão de Melhoria: Substituir o uso de 'start' por 'left' para consistência com o justify-content */
+
 ul {
   display: flex;
   flex-direction: column;
